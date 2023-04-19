@@ -1,9 +1,9 @@
-# PowerTeam
+# PowerTeam ⚡
 
 En este proyecto hemos desarrollado nuestra **primera web** colaborativa como parte de la formación en el bootcamp de programación web de Adalab (Promo Salas, 2023).
 Es un ejercicio de diseño web responsive que también sirve como presentación de nuestro equipo.
 
-## Objetivos
+## Objetivos ✅
 - Consolidar el aprendizaje de las tecnologías aprendidas en el módulo 1 (HTML, CSS, diseño responsive, Github pages, SASS, Gulp)
 - Utilizar el control de versiones en equipo para aprender sus ventajas y los conflictos que puede generar.
 - Implementar Scrum como marco de referencia para el desarrollo del producto, basándonos siempre en los valores de Agile como puntos clave del trabajo en equipo.
@@ -22,7 +22,7 @@ Es un ejercicio de diseño web responsive que también sirve como presentación 
 - **SASS**
 - **Adalab Starter Kit**
 
-## ¿Qué es el Adalab Start Kit?
+## ¿Qué es el Adalab Starter Kit? 🧭
 Es una plantilla de proyectos con funcionalidades preinstaladas y preconfiguradas creado en **NodeJS** y **Gulp**.
 Este Kit incluye un motor de plantillas HTML, el preprocesador SASS, un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente y nos sirve para automatizar algunas tareas.
 
