@@ -32,6 +32,14 @@ Este Kit incluye un motor de plantillas HTML, el preprocesador SASS, un servidor
 - [Bea Figueroa](https://github.com/beafig) 
 - [Mónica Saborido](https://github.com/sabfiamo) 
 
+## Supervisión 🔎
+
+El proyecto ha sido supervisado por nuestros maravillosos profes:
+
+- [Dayana Romero](https://github.com/dayanare)
+- [Iván Garrido](https://github.com/igarrido-adalab)
+- [Yanelis Serrano](https://github.com/ytaylordev)
+
 ### ¡Muchas gracias!
 - Comenta a otros sobre este proyecto 📢
 - Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
