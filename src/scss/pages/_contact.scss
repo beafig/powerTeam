@@ -1,0 +1,149 @@
+// .section_1 .title_2 {
+// si pongo display none se aplica a todo la web no solo a contacto
+//   display: none;
+// }
+.img-container {
+  height: 42rem;
+  background: url(../images/makeiteasy2.jpg);
+  background-size: cover;
+}
+
+.contact-container {
+  padding: 30px 15px 0 15px;
+
+  @media (min-width: 768px) {
+    padding: 30px 200px 0 200px;
+  }
+
+  @media (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 45px 300px 120px 300px;
+  }
+}
+.contact-title {
+  font: $rubik_medium_24;
+  color: $blue-green-color;
+
+  text-align: center;
+}
+.contact-description {
+  font: $openSans_regular_16;
+  color: $dark-grey-color;
+  padding-top: 15px;
+  line-height: 24px;
+  text-align: center;
+}
+.small_text {
+  font: $openSans_regular_12;
+  color: $dark-grey-color;
+  line-height: 24px;
+  padding-top: 15px;
+  padding-bottom: 58px;
+  text-align: center;
+}
+.title--description__small__aqua {
+  color: $aqua;
+  font: $openSans_regular_12;
+}
+.form--label {
+  display: block;
+  font: $openSans_regular_14;
+  color: $dark-grey-color;
+  line-height: 30px;
+  width: 94%;
+  @media (min-width: 1200px) {
+    width: 100%;
+  }
+}
+.form--input {
+  display: block;
+  font: $openSans_regular_14;
+  padding: 11px 15px 15px 15px;
+  width: 94%;
+  margin-bottom: 13px;
+  height: 45px;
+  @media (min-width: 1200px) {
+    // Enrica: padding 0;
+    padding: 0 0 0 15px;
+  }
+}
+
+.form--input--message {
+  height: 105px;
+  padding-top: 11px;
+}
+
+.container--form__submit {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  @media (min-width: 1200px) {
+    display: inline-block;
+    grid-column: 2;
+    justify-self: end;
+  }
+}
+.form--submit {
+  color: $white;
+  background-color: $blue-green-color;
+  font: $openSans_semibold_18;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 60px;
+  @media (min-width: 768px) {
+    width: 20%;
+  }
+  @media (min-width: 1200px) {
+    width: 278px;
+    margin: 0;
+  }
+}
+
+.form {
+  @media (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.form--label--name {
+  @media (min-width: 1200px) {
+    grid-column: span 2;
+  }
+}
+
+.form--label--email {
+  @media (min-width: 1200px) {
+    width: 395px;
+    display: inline-block;
+    grid-row: 2;
+  }
+}
+
+.form--label--telephone {
+  @media (min-width: 1200px) {
+    width: 162px;
+    display: inline-block;
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 28px;
+    justify-self: end;
+  }
+}
+
+.form--label--message {
+  @media (min-width: 1200px) {
+    display: inline-block;
+    grid-column: span 2;
+    grid-row: 3;
+  }
+}

@@ -1,0 +1,33 @@
+.section_1 {
+  padding-top: 10.5rem;
+  height: 42rem;
+  background: url(../images/portatil.jpg) center/cover;
+  // background-size: 100% 100%;
+  display: flex;
+}
+
+.section_1 .container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.section_1 .title_2 {
+  font: $openSans_semibold_18;
+  padding: 1.4rem;
+  background-color: $white;
+  transform: translateY(50%);
+  z-index: 1;
+  @media (min-width: 768px) {
+    width: 450px;
+    position: absolute;
+    left: 45px;
+    transform: none;
+    opacity: 0.8;
+    padding: 15px 30px;
+    text-align: left;
+    line-height: 25px;
+  }
+  @media (min-width: 1200px) {
+    left: 13.8rem;
+  }
+}

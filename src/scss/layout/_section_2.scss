@@ -1,0 +1,44 @@
+.section_2 {
+  text-align: center;
+  padding: 3rem 0;
+  position: relative;
+  top: 3.5rem;
+  @media (min-width: 768px) {
+    position: static;
+    padding: 0;
+  }
+}
+
+.section_2 .description {
+  color: $dark-grey-color;
+  font: $openSans_regular_16;
+  line-height: 24px;
+  margin-top: 1.5rem;
+  @media (min-width: 768px) {
+    margin-bottom: 3rem;
+  }
+}
+
+.section_2 .title_2 {
+  font: $rubik_medium_24;
+  color: $aqua;
+  line-height: 24px;
+  padding: 1rem 0;
+  @media (min-width: 768px) {
+    color: $blue-green-color;
+    margin-top: 4.5rem;
+  }
+}
+
+.rectangle {
+  width: 3rem;
+  height: 3rem;
+  transform: rotate(45deg);
+  background-color: $white;
+  position: relative;
+  top: 1rem;
+  margin: auto;
+  @media (min-width: 768px) {
+    top:1.5rem;
+}
+}

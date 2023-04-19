@@ -1,0 +1,43 @@
+.article .title_2 {
+  font: $rubik_medium_22;
+  color: $blue-green-color;
+  text-align: center;
+}
+
+.section_3 .description {
+  font: $openSans_regular_16;
+  color: $dark-grey-color;
+  padding-bottom: 30px;
+  @media (min-width: 768px) {
+    padding-top: 15px;
+  }
+}
+
+.section_3 {
+  background-color: rgba(184, 184, 185, 0.2);
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.section_3 .article {
+  line-height: 1.5;
+  text-align: center;
+  @media (min-width: 768px) {
+    width: 50%;
+    padding: 10px;
+  }
+}
+
+.section_3 .container {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+  @media (min-width: 1200px) {
+    margin: 45px 128px;
+    display: flex;
+    flex-direction: row;
+  }
+}

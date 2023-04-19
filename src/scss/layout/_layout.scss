@@ -1,0 +1,15 @@
+.container {
+  margin: 0 1.5rem;
+  @media (min-width: 768px) {
+    margin: 0 4.5rem;
+  }
+  @media (min-width: 1200px) {
+    margin: 0 138px;
+  }
+}
+
+  .container_photo {
+    @media (min-width: 1200px) {
+    margin: 0;
+    }
+  }

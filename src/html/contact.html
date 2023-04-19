@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PowerTeam</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6885363b9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
+    <link rel="icon" href="./assets/images/lightning.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" /> -->
+  </head>
+
+  <body>
+    <!-- Start Section Lau-->
+    <include src="./partials/header.html"></include>
+    <!-- <include src="./partials/section_1.html"></include> -->
+
+    <main>
+      <div class="img-container"></div>
+      <!--Contact page-->
+      <div class="contact-container">
+        <h1 class="contact-title">CONTACTO</h1>
+        <p class="contact-description">
+          ¿Preguntas? ¿Sugerencias? ¿Quieres conocer el PowerTeam?<br />
+          ¡Rellena el formulario!
+        </p>
+        <p class="small_text">
+          Todos lo campos marcados con
+          <span class="title--description__small__aqua">*</span> son
+          obligatorios.
+        </p>
+        <!--Name-->
+        <form
+          class="form"
+          action="https://formspree.io/f/myyakzyb"
+          method="post"
+        >
+          <label class="form--label form--label--name" for="name">
+            Nombre Completo
+            <span class="title--description__small__aqua">*</span>
+            <input
+              class="form--input form--input--name"
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Nombre..."
+              required
+            />
+          </label>
+          <!--Email-->
+          <label class="form--label form--label--email" for="email">
+            Email <span class="title--description__small__aqua">*</span>
+
+            <input
+              class="form--input form--input--email"
+              id="email"
+              type="email"
+              name="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              value="nombre.apellidos@mail.com"
+              required
+            />
+          </label>
+
+          <!--Telephone-->
+          <label class="form--label form--label--telephone" for="telephone">
+            Teléfono
+            <input
+              class="form--input form--input--telephone"
+              id="telephone"
+              type="tel"
+              name="telephone"
+              placeholder="Ej: 123456789"
+            />
+          </label>
+
+          <!--Message-->
+          <label class="form--label form--label--message" for="message">
+            Mensaje
+            <span class="title--description__small__aqua">*</span>
+            <textarea
+              class="form--input form--input--message"
+              id="message"
+              type="text"
+              name="message"
+              placeholder="¿Qué necesitas?"
+              cols="20"
+              rows="8"
+              required
+            ></textarea>
+          </label>
+
+          <!--Submit-->
+          <div class="container--form__submit">
+            <input class="form--submit" type="submit" value="ENVIAR" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- Start Section Enrica-->
+    <include src="./partials/footer.html"></include>
+    <!-- End Section Enrica-->
+  </body>
+</html>

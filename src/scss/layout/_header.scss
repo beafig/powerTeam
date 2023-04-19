@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  opacity: 0.90;
+  color: $white;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+    background-color: $blue-green-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 45px;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 138px;
+  }
+}
+.team_name {
+  font: $rubik_medium_16;
+  padding: 20px 0;
+  text-align: center;
+  height: 60px;
+  background-color: $blue-green-color;
+}
+
+.nav_container {
+  height: 45px;
+  background-color: $aqua;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  @media (min-width: 768px) {
+    background-color: $blue-green-color;
+    padding: 0;
+    width: 80%;
+  }
+}
+
+.nav_list {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+  @media (min-width: 768px) {
+    justify-content: flex-end;
+    gap: 15px;
+  }
+}
+
+.link_item {
+  text-decoration: none;
+  color: $white;
+  font-size: 0.938rem;
+  font: $rubik_medium_15;
+}
+ 
+.header--link {
+  text-decoration: none;
+  color:$white;
+}
