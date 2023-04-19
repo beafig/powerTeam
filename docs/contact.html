@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PowerTeam</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6885363b9f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
+    <link rel="icon" href="./assets/images/lightning.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" /> -->
+  </head>
+
+  <body>
+    <!-- Start Section Lau-->
+    <header class="header">
+      <a
+        class="header--link"
+        href="http://beta.adalab.es/project-promo-s-module-1-team-2/"
+      >
+        <h1 class="team_name">PowerTeam</h1>
+      </a>
+      <nav class="nav_container">
+        <ul class="nav_list">
+          <li>
+            <a
+              class="link_item"
+              href="http://beta.adalab.es/project-promo-s-module-1-team-2/#team"
+              >Equipo</a
+            >
+          </li>
+          <li>
+            <a
+              class="link_item"
+              href="http://beta.adalab.es/project-promo-s-module-1-team-2/#about-us"
+              >Quienes somos</a
+            >
+          </li>
+          <li><a class="link_item" href="./contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- <section class="section_1">
+   <div class="container">
+     <h2 class="title_2" id="team">
+       Lo simple puede ser más difícil que lo complejo. Tienes que trabajar duro
+       manteniendo tu mente clara para hacer las cosas simples.
+     </h2>
+   </div>
+ </section>
+ -->
+
+    <main>
+      <div class="img-container"></div>
+      <!--Contact page-->
+      <div class="contact-container">
+        <h1 class="contact-title">CONTACTO</h1>
+        <p class="contact-description">
+          ¿Preguntas? ¿Sugerencias? ¿Quieres conocer el PowerTeam?<br />
+          ¡Rellena el formulario!
+        </p>
+        <p class="small_text">
+          Todos lo campos marcados con
+          <span class="title--description__small__aqua">*</span> son
+          obligatorios.
+        </p>
+        <!--Name-->
+        <form
+          class="form"
+          action="https://formspree.io/f/myyakzyb"
+          method="post"
+        >
+          <label class="form--label form--label--name" for="name">
+            Nombre Completo
+            <span class="title--description__small__aqua">*</span>
+            <input
+              class="form--input form--input--name"
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Nombre..."
+              required
+            />
+          </label>
+          <!--Email-->
+          <label class="form--label form--label--email" for="email">
+            Email <span class="title--description__small__aqua">*</span>
+
+            <input
+              class="form--input form--input--email"
+              id="email"
+              type="email"
+              name="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              value="nombre.apellidos@mail.com"
+              required
+            />
+          </label>
+
+          <!--Telephone-->
+          <label class="form--label form--label--telephone" for="telephone">
+            Teléfono
+            <input
+              class="form--input form--input--telephone"
+              id="telephone"
+              type="tel"
+              name="telephone"
+              placeholder="Ej: 123456789"
+            />
+          </label>
+
+          <!--Message-->
+          <label class="form--label form--label--message" for="message">
+            Mensaje
+            <span class="title--description__small__aqua">*</span>
+            <textarea
+              class="form--input form--input--message"
+              id="message"
+              type="text"
+              name="message"
+              placeholder="¿Qué necesitas?"
+              cols="20"
+              rows="8"
+              required
+            ></textarea>
+          </label>
+
+          <!--Submit-->
+          <div class="container--form__submit">
+            <input class="form--submit" type="submit" value="ENVIAR" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- Start Section Enrica-->
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">PowerTeam © 2023</p>
+        <nav class="footer_nav">
+          <ul class="footer_list">
+            <li>
+              <a
+                class="link_footer"
+                href="http://beta.adalab.es/project-promo-s-module-1-team-2/#team"
+                >EQUIPO</a
+              >
+            </li>
+            <li>
+              <a
+                class="link_footer"
+                href="http://beta.adalab.es/project-promo-s-module-1-team-2/#about-us"
+                >QUIÉNES SOMOS</a
+              >
+            </li>
+            <li>
+              <a class="link_footer" href="./contact.html">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="https://adalab.es/" target="_blank"
+          ><img
+            class="logo_adalab"
+            src="./assets/images/logo-adalab.png"
+            alt="logo Adalab"
+        /></a>
+      </div>
+    </footer>
+
+    <!-- End Section Enrica-->
+  </body>
+</html>
