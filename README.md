@@ -27,6 +27,7 @@ Es una plantilla de proyectos con funcionalidades preinstaladas y preconfigurada
 Este Kit incluye un motor de plantillas HTML, el preprocesador SASS, un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente y nos sirve para automatizar algunas tareas.
 
 ## Autores ✒️
+
 - [Laura Caurín](https://github.com/Laucaurin) 
 - [Enrica Garcia](https://github.com/ErriGarcia)  
 - [Bea Figueroa](https://github.com/beafig) 
